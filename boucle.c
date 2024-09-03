@@ -15,22 +15,33 @@ int main(){
 //	     printf("\n%d  * %d = %d",Nbr,i,resulta);
 //     }
 
-// *************************************Conditions challange 2*************************************
-//     int n, i;
-//     int solution =0;  
+// int Nbr, resulta;
 //
-//    printf("entrez un nombre : ");
-//    scanf("%d", &n);
+//    printf("Entrez un nombre : ");
+//    scanf("%d", &Nbr);
 //
-//    if (n < 0) {
-//        printf("le  nombre est negative.\n");
-//    } else {
-//        for (i = 1; i <= n; i++) {
-//            solution *= i;
-//        }
-//
-//        printf("%d   !=   %d  \n", n, solution);
+//    for (int i = 1; i <= 10; i++) {
+//        resulta = Nbr * i;
+//        printf("\n%d * %d = %d", Nbr, i, resulta);
 //    }
+
+
+// *************************************Conditions challange 2*************************************
+     int n, i;
+     int solution ;  
+
+    printf("entrez un nombre : ");
+    scanf("%d", &n);
+
+    if (n < 0) {
+        printf("le  nombre est negative.\n");
+    } else {
+        for (i = 1; i <= n; i++) {
+            solution *= i;
+        }
+
+        printf("%d   !=   %d  \n", n, solution);
+    }
 
 // *************************************Conditions challange 3*************************************
 //     int n, i;
